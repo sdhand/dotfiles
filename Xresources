@@ -1,0 +1,48 @@
+! special
+*.foreground:   #ffffff
+*.background:   #262729
+*.cursorColor:  #ffffff
+
+! black
+*.color0:       #686868
+*.color8:       #454545
+
+! red
+*.color1:       #eb7685
+*.color9:       #eb465c
+
+! green
+*.color2:       #46aab8
+*.color10:      #148e9e
+
+! yellow
+*.color3:       #E6BEA3
+*.color11:      #EB9C67
+
+! blue
+*.color5:       #a3a3e6
+*.color13:      #6c6cb3
+
+! magenta
+*.color4:       #A3BEE6
+*.color12:      #4770AD
+
+! cyan
+*.color6:       #A3CAE6
+*.color14:      #6c96b3
+
+! white
+*.color7:       #d4d5d9
+*.color15:      #b3b4b8
+
+URxvt.font:xft:SF Mono:size=12:style=Semibold
+*letterSpace: -1
+*boldFont:
+URxvt.scrollBar: false
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.internalBorder: 14
+
+URxvt*depth: 32
+URxvt*background: rgba:2600/2700/2900/BB00
